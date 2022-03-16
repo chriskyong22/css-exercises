@@ -121,19 +121,21 @@ ul {
   grid-row: 1;
   display: grid;
   grid-template-columns: 1.25fr 3fr;
-  justify-items: start;
-  align-items: center;
+  justify-items: center;
+}
+.logo {
+  justify-self: start;
 }
 
 .menu {
   width: 100%;
+  background-color: red;
+  align-self: center;
 }
 
 .header .menu ul {
   display: grid;
-  width: 100%;
   grid-template-columns: repeat(4, 1fr);
-  justify-content: space-evenly;
 }
 
 .sidebar {
